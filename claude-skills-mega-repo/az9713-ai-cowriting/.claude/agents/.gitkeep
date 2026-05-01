@@ -1,0 +1,26 @@
+# Agents Folder
+
+This folder is reserved for Claude Code agents.
+
+## What are Agents?
+
+Agents are autonomous workflows that can execute multi-step tasks. They go beyond skills by chaining together multiple operations.
+
+## Coming Soon
+
+Agent capabilities include:
+- Multi-step content workflows
+- Automated content repurposing
+- Research and compilation
+- Content calendar management
+- Batch content generation
+
+## Structure
+
+Each agent will be a folder containing:
+- AGENT.md - Agent instructions
+- Supporting files as needed
+
+## Note
+
+Agent functionality is an advanced feature. Start with skills first, then add agents as your system matures.

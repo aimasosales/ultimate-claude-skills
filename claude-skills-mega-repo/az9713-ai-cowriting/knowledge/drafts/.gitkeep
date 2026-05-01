@@ -1,0 +1,22 @@
+# Drafts Folder
+
+This folder contains work-in-progress content.
+
+## How to Use
+
+Place your content drafts here:
+- Newsletter drafts
+- Article drafts
+- Social media content batches
+- Email sequence drafts
+
+Claude will reference these when creating related content or repurposing.
+
+## Naming Convention
+
+Suggested format: `YYYY-MM-DD_content-type_topic.md`
+
+Examples:
+- 2025-01-15_newsletter_ai-writing-systems.md
+- 2025-01-20_linkedin-posts_batch.md
+- 2025-01-22_twitter-thread_lessons-learned.md
