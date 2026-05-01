@@ -1,0 +1,23 @@
+# Run `pip audit` to check for known CVEs before deploying
+# Run `pip install --upgrade pip && pip install -r requirements.txt` to update
+
+# Security — encryption at rest
+cryptography>=42.0.5,<45
+
+# PDF and document processing
+pdfplumber>=0.10.0,<1
+pytesseract>=0.3.10,<1
+Pillow>=10.0.0,<12
+
+# Bank statement import
+requests>=2.31.0,<3
+
+# Bank statement formats (optional)
+ofxparse>=0.21,<1
+mt-940>=4.2.0,<5
+
+# CLI
+click>=8.1.0,<9
+
+# Optional but recommended: enables log-normal Monte Carlo sampling (faster, more accurate)
+# numpy>=1.26.0,<3

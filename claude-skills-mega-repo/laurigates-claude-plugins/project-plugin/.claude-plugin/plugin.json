@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "project-plugin",
+  "version": "1.14.0",
+  "description": "Project initialization and management - setup, modernization, and continuous development workflows",
+  "author": {
+    "name": "Lauri Gates"
+  },
+  "repository": "https://github.com/laurigates/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "project",
+    "initialization",
+    "setup",
+    "modernization",
+    "tdd",
+    "workflow",
+    "changelog",
+    "maintenance",
+    "distill",
+    "insights",
+    "knowledge-capture"
+  ]
+}

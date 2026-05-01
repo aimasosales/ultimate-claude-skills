@@ -1,0 +1,24 @@
+{
+	"id": "render_single_page",
+	"category": "render",
+	"description": "Render a single PDF page to PNG",
+	"tags": ["render", "pdf", "single_page"],
+	"call": "render_page",
+	"input": {
+		"path": "pdf/tiny.pdf",
+		"page_index": 0,
+		"dpi": 150,
+		"mode": "single_page"
+	},
+	"assertions": [
+		{
+			"type": "is_true",
+			"field": "is_png"
+		},
+		{
+			"type": "greater_than_or_equal",
+			"field": "byte_length",
+			"value": 100
+		}
+	]
+}

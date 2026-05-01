@@ -1,0 +1,37 @@
+{
+	"id": "config_element_types",
+	"description": "Tests element-based result format with element type assertions on DOCX",
+	"tags": ["contract", "config", "result_format"],
+	"call": "extract_file_sync",
+	"input": {
+		"path": "docx/unit_test_headers.docx",
+		"config": {
+			"result_format": "element_based"
+		}
+	},
+	"assertions": [
+		{
+			"type": "contains_any",
+			"field": "mime_type",
+			"values": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
+		},
+		{
+			"type": "equals",
+			"field": "result_format",
+			"value": "element_based"
+		},
+		{
+			"type": "count_min",
+			"field": "elements",
+			"value": 1
+		},
+		{
+			"type": "contains_all",
+			"field": "element_types",
+			"values": ["narrative_text"]
+		}
+	],
+	"skip": {
+		"reason": "Requires features: office"
+	}
+}

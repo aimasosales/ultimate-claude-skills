@@ -1,0 +1,236 @@
+# Build artifacts
+target/
+build/
+dist/
+.lycheecache
+dist-musl/
+*.so
+*.dylib
+*.dll
+*.pdb
+*.node
+*.whl
+*.tar.gz
+*.gem
+*.jar
+wheels/
+**/bin/
+!**/src/bin/
+**/obj/
+
+# Rust
+*.rs.bk
+*.profraw
+rust-coverage.lcov
+rust_out
+
+# Python
+*.py[cod]
+*$py.class
+*.egg-info/
+__pycache__/
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage*
+htmlcov/
+share/python-wheels/
+prompt_template.egg-info/
+packages/python/kreuzberg/kreuzberg-cli
+
+# Node.js / WASM
+node_modules/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# NAPI-RS generated files (index.d.ts is committed for TypeScript type resolution)
+crates/kreuzberg-node/index.js
+libpdfium.a
+.wrangler/
+.pnpm-store/
+
+# Ruby
+packages/ruby/.bundle/
+packages/ruby/vendor/
+!packages/ruby/vendor/rb-sys/
+!vendor/rb-sys/build/
+!vendor/rb-sys/build/**
+*.Cache
+
+# PHP
+vendor/
+php-kreuzberg.ini
+packages/php/php-kreuzberg.ini
+packages/php/tests.xml
+packages/php/var/
+.php-cs-fixer.cache
+
+# Java / C# / .NET
+*.suo
+*.user
+*.cscfg
+*.cobertura.xml
+TestResults/
+
+# Generated test apps (e2e-generator --mode published)
+test_apps/
+
+# R
+packages/r/src/.cargo/
+.Rhistory
+.RData
+
+# Elixir
+.nox/
+
+# C FFI
+crates/kreuzberg-ffi/tests/c/test_*
+!crates/kreuzberg-ffi/tests/c/test_*.c
+crates/kreuzberg-ffi/tests/c/*.o
+crates/kreuzberg-ffi/tests/c/*.dSYM/
+e2e/c/test_*
+!e2e/c/test_*.c
+e2e/c/*.o
+e2e/c/*.dSYM/
+
+# Generated pkg-config
+*.pc
+
+# Coverage
+coverage/
+coverage.info
+coverage.json
+coverage.lcov
+coverage.out
+coverage.xml
+packages/*/.coverage
+packages/*/coverage.json
+packages/*/coverage.out
+packages/*/htmlcov/
+packages/*/test-results/
+packages/*/TestResults/
+
+# IDE / Editor
+.idea/
+.vscode/
+.run/
+.DS_store
+
+# CI / Tools
+.cache/
+.tmp/
+*temp/
+*.temp
+*.tmp
+*.log
+.mvn/
+.tox/
+.artifacts/
+.remote-cache/
+.rumdl_cache/
+docker-logs/
+
+# Benchmarks
+benchmark-results/
+benchmark_results.json
+benchmarks/results/
+!benchmarks/baselines/
+aggregated-results/
+results/
+reports/
+tests/benchmarks/results/
+profiling-results/
+profiling-results-*/
+
+# Docs
+docs/_build/
+docs/build/
+docs/benchmarks/charts/
+site/
+
+# Elixir build artifacts
+packages/elixir/_build/
+packages/elixir/deps/
+packages/elixir/native/kreuzberg_nif/Cargo.lock
+e2e/elixir/_build/
+e2e/elixir/deps/
+e2e/elixir/mix.lock
+e2e/elixir/config/
+
+# Maven plugin artifacts
+*.versionsBackup
+
+# Ruby native build artifacts
+packages/ruby/lib/*.bundle
+packages/ruby/tmp/
+
+# Tests
+test_report.json
+tests/e2e/logs/
+tests/e2e/test_report.json
+temp-test-*
+packages/csharp/test_html_debug.cs
+
+# Pdfium test artifacts
+crates/kreuzberg-pdfium-render/*.jpg
+
+# AI / MCP / Agent config
+.claude/
+.codex/
+.gemini/
+.kreuzberg/
+.mcp.json
+.playwright-mcp/
+.fastembed_cache/
+*/.fastembed_cache/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.cursorrules
+.windsurfrules
+[Tt][Oo][Dd][Oo]*
+
+# Git worktrees
+.worktrees/
+
+# Misc
+.env
+output.txt
+examples.txt
+requirements.txt
+docker-compose.yaml
+/tmp/kreuzberg-docker-test-results.json
+tools/benchmark-harness/datasets/
+tools/benchmark-harness/vendored/docling/md/iso_21111_10.md
+visualizations/
+
+
+# Additional generated artifacts
+.alef/
+*.pyd
+.gems/
+vendor/bundle/
+*.h.bak
+*.test
+*.class
+bin/
+obj/
+*.nupkg
+pkg/
+
+# BEGIN ai-rulez (DO NOT EDIT - managed by ai-rulez)
+.agents/
+.cursor/
+.github/agents/
+.github/commands/
+.github/copilot-instructions.md
+.github/skills/
+# END ai-rulez
+
+# Local dev artifacts
+docs/demo-dev.html

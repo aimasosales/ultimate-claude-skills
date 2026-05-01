@@ -1,0 +1,22 @@
+```go title="Go"
+package main
+
+import (
+	"fmt"
+
+	"github.com/kreuzberg-dev/kreuzberg/packages/go/v4"
+)
+
+func main() {
+	config := &kreuzberg.ExtractionConfig{
+		TokenReduction: &kreuzberg.TokenReductionConfig{
+			Mode:                   "moderate",
+			PreserveImportantWords: kreuzberg.BoolPtr(true),
+		},
+	}
+
+	fmt.Printf("Mode: %s, Preserve Important Words: %v\n",
+		config.TokenReduction.Mode,
+		*config.TokenReduction.PreserveImportantWords)
+}
+```

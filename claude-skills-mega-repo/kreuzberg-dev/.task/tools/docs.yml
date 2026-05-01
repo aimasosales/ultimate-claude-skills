@@ -1,0 +1,17 @@
+version: "3"
+
+includes:
+  _cfg:
+    taskfile: ../config/vars.yml
+    internal: true
+
+tasks:
+  build:
+    desc: Build documentation
+    cmds:
+      - uv run --group doc zensical build --clean
+
+  serve:
+    desc: Serve documentation locally
+    cmds:
+      - uv run --group doc zensical serve

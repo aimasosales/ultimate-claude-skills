@@ -1,0 +1,35 @@
+name: "Plugin: Lint skills"
+
+on:
+  pull_request:
+    paths:
+      - '**/skills/**/SKILL.md'
+      - '**/skills/**/skill.md'
+      - 'scripts/lint-context-commands.sh'
+      - 'scripts/audit-skill-descriptions.py'
+  push:
+    branches:
+      - main
+    paths:
+      - '**/skills/**/SKILL.md'
+      - '**/skills/**/skill.md'
+      - 'scripts/lint-context-commands.sh'
+      - 'scripts/audit-skill-descriptions.py'
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-slim
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Lint context commands
+        run: ./scripts/lint-context-commands.sh
+
+      - name: Install Python deps for skill-description audit
+        run: pip install --quiet pyyaml
+
+      - name: Audit skill descriptions for auto-invocation
+        run: python3 scripts/audit-skill-descriptions.py --strict-all

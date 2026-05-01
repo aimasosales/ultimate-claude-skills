@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "configure-plugin",
+  "version": "1.20.2",
+  "description": "Project infrastructure standards - comprehensive project configuration for pre-commit, CI/CD, Docker, testing, linting, formatting, and more",
+  "author": {
+    "name": "Lauri Gates"
+  },
+  "repository": "https://github.com/laurigates/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "infrastructure",
+    "standards",
+    "configuration",
+    "pre-commit",
+    "ci-cd",
+    "docker",
+    "testing",
+    "linting",
+    "formatting",
+    "security",
+    "permissions",
+    "wildcards",
+    "config-sync",
+    "claude-plugins",
+    "marketplace",
+    "web-session",
+    "session-start",
+    "remote",
+    "onboarding",
+    "repo-setup",
+    "stack-aware",
+    "driver"
+  ]
+}

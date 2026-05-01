@@ -1,0 +1,60 @@
+# Changelog
+
+## [1.4.0](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.3.4...evaluate-plugin-v1.4.0) (2026-04-19)
+
+
+### Features
+
+* make skills discoverable by Claude's auto-invocation ([#1090](https://github.com/laurigates/claude-plugins/issues/1090)) ([cded1da](https://github.com/laurigates/claude-plugins/commit/cded1da1ebaf350cba1285b58ecadbbaa0eb01f6))
+
+## [1.3.4](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.3.3...evaluate-plugin-v1.3.4) (2026-04-15)
+
+
+### Documentation
+
+* **plugins:** add flow diagrams for router and pipeline plugins ([#1034](https://github.com/laurigates/claude-plugins/issues/1034)) ([a5e0e08](https://github.com/laurigates/claude-plugins/commit/a5e0e087495f0e835c3ad7e5dcf5bf7f4e61ad02))
+
+## [1.3.3](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.3.2...evaluate-plugin-v1.3.3) (2026-04-12)
+
+
+### Code Refactoring
+
+* **evaluate-plugin:** extract evaluate skill inline commands to standalone scripts ([#1023](https://github.com/laurigates/claude-plugins/issues/1023)) ([bc0a3dc](https://github.com/laurigates/claude-plugins/commit/bc0a3dc238a611e5102101d507189424f251a225)), closes [#987](https://github.com/laurigates/claude-plugins/issues/987)
+* **health-plugin:** extract health-plugins inline commands to standalone scripts ([#1022](https://github.com/laurigates/claude-plugins/issues/1022)) ([b18efb0](https://github.com/laurigates/claude-plugins/commit/b18efb01ca6f47591f054809dbf805e0daa5fcca)), closes [#984](https://github.com/laurigates/claude-plugins/issues/984)
+
+## [1.3.2](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.3.1...evaluate-plugin-v1.3.2) (2026-04-08)
+
+
+### Bug Fixes
+
+* **blueprint-plugin:** remove model field from skills and fix invocation syntax ([#1007](https://github.com/laurigates/claude-plugins/issues/1007)) ([42e1e5b](https://github.com/laurigates/claude-plugins/commit/42e1e5b6c73d43e5de4b27cdee16e316de44d4c0))
+
+## [1.3.1](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.3.0...evaluate-plugin-v1.3.1) (2026-03-25)
+
+
+### Bug Fixes
+
+* remove context: fork from all plugin skills to fix rate limit errors ([#981](https://github.com/laurigates/claude-plugins/issues/981)) ([56a90b1](https://github.com/laurigates/claude-plugins/commit/56a90b1464a9b1233a8bdb3d0716f1673bc70ad3))
+
+## [1.3.0](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.2.0...evaluate-plugin-v1.3.0) (2026-03-09)
+
+
+### Features
+
+* **rules:** update rules for Claude Code 2.1.63-2.1.71 changes ([#917](https://github.com/laurigates/claude-plugins/issues/917)) ([20341e8](https://github.com/laurigates/claude-plugins/commit/20341e871fe7e91eb79d51aa02ad7bc9003a93e1))
+
+## [1.2.0](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.1.0...evaluate-plugin-v1.2.0) (2026-03-04)
+
+
+### Features
+
+* evaluate-plugin for skill evaluation and benchmarking ([#871](https://github.com/laurigates/claude-plugins/issues/871)) ([22cf97a](https://github.com/laurigates/claude-plugins/commit/22cf97a513245928e2e5b2572758ea0e33e34b90))
+
+## [1.1.0](https://github.com/laurigates/claude-plugins/compare/evaluate-plugin-v1.0.0...evaluate-plugin-v1.1.0) (2026-03-04)
+
+
+### Features
+
+* evaluate-plugin for skill evaluation and benchmarking ([#871](https://github.com/laurigates/claude-plugins/issues/871)) ([22cf97a](https://github.com/laurigates/claude-plugins/commit/22cf97a513245928e2e5b2572758ea0e33e34b90))
+
+## Changelog

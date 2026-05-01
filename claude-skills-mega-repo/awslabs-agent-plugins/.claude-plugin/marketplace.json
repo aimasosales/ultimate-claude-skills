@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "description": "Agent Plugins for AWS equip AI coding agents with the skills to help you architect, deploy, and operate on AWS.",
+    "version": "1.1.0"
+  },
+  "name": "agent-plugins-for-aws",
+  "owner": {
+    "email": "aws-agent-plugins@amazon.com",
+    "name": "Amazon Web Services"
+  },
+  "plugins": [
+    {
+      "category": "location",
+      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+      "keywords": [
+        "location",
+        "maps",
+        "geocoding",
+        "routing",
+        "places",
+        "geofencing",
+        "tracking",
+        "amazon-location",
+        "maplibre",
+        "address",
+        "coordinates"
+      ],
+      "name": "amazon-location-service",
+      "source": "./plugins/amazon-location-service",
+      "tags": ["aws", "location", "maps", "geospatial"],
+      "version": "1.0.0"
+    },
+    {
+      "category": "fullstack",
+      "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
+      "keywords": [
+        "aws",
+        "amplify",
+        "fullstack",
+        "authentication",
+        "data",
+        "storage",
+        "graphql",
+        "functions"
+      ],
+      "name": "aws-amplify",
+      "source": "./plugins/aws-amplify",
+      "tags": ["aws", "amplify", "fullstack"],
+      "version": "1.0.0"
+    },
+    {
+      "category": "development",
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "keywords": [
+        "aws",
+        "aws agent skills",
+        "amazon",
+        "serverless",
+        "lambda",
+        "durable functions",
+        "development",
+        "sam",
+        "api gateway",
+        "eventbridge",
+        "step functions"
+      ],
+      "name": "aws-serverless",
+      "source": "./plugins/aws-serverless",
+      "tags": [
+        "aws",
+        "serverless",
+        "lambda",
+        "durable functions",
+        "development",
+        "sam",
+        "api gateway",
+        "eventbridge",
+        "step functions"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "category": "development",
+      "description": "Analyze codebases to generate structured technical documentation with source-of-truth citations. Optimized for AWS workloads using CDK, CloudFormation, and Terraform.",
+      "keywords": [
+        "aws",
+        "aws agent skills",
+        "documentation",
+        "architecture",
+        "diagram",
+        "draw.io",
+        "codebase-analysis",
+        "cdk",
+        "cloudformation",
+        "terraform",
+        "onboarding"
+      ],
+      "name": "codebase-documentor-for-aws",
+      "source": "./plugins/codebase-documentor-for-aws",
+      "tags": ["aws", "documentation", "architecture", "diagram"],
+      "version": "0.1.0"
+    },
+    {
+      "category": "database",
+      "description": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload.",
+      "keywords": [
+        "aws",
+        "aws agent skills",
+        "amazon",
+        "aurora",
+        "database",
+        "databases",
+        "distributed-sql",
+        "dsql",
+        "iam-auth",
+        "migration",
+        "postgresql",
+        "postgres",
+        "schema",
+        "serverless",
+        "sql"
+      ],
+      "name": "databases-on-aws",
+      "source": "./plugins/databases-on-aws",
+      "tags": ["aws", "database", "aurora", "dsql", "serverless", "postgresql"],
+      "version": "1.0.0"
+    },
+    {
+      "category": "deployment",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment. Generate validated AWS architecture diagrams as draw.io XML.",
+      "keywords": [
+        "aws",
+        "aws agent skills",
+        "amazon",
+        "deploy",
+        "cdk",
+        "cloudformation",
+        "infrastructure",
+        "pricing",
+        "diagrams",
+        "draw.io",
+        "architecture"
+      ],
+      "name": "deploy-on-aws",
+      "source": "./plugins/deploy-on-aws",
+      "tags": ["aws", "deploy", "infrastructure", "cdk", "diagrams"],
+      "version": "1.2.0"
+    },
+    {
+      "category": "ai",
+      "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
+      "keywords": [
+        "aws",
+        "sagemaker",
+        "machine-learning",
+        "generative-ai",
+        "fine-tuning",
+        "training",
+        "deployment",
+        "inference",
+        "mlops"
+      ],
+      "name": "sagemaker-ai",
+      "source": "./plugins/sagemaker-ai",
+      "tags": ["aws", "sagemaker", "machine-learning", "generative-ai"],
+      "version": "1.1.0"
+    }
+  ]
+}
