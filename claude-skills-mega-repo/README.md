@@ -1,7 +1,6 @@
 # 🚀 Ultimate Claude Skills Mega-Repository
 
-**The World's Largest Curated Collection of Claude Code Skills**  
-*A Technical Achievement in AI Agent Infrastructure and Open-Source Curation*
+**Probably The World's Largest Curated Collection of Claude Code Skills**  
 
 ---
 
